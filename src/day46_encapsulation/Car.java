@@ -7,12 +7,14 @@ public class Car {
     private int mileage;
 
     //setter method for model
-    public void setModel(String carModel){
-        model = carModel;
+    public void setModel(String model){
+
+        this.model = model;
     }
 
     // getter method for model
     public String getModel(){
+
         return model;
     }
 
