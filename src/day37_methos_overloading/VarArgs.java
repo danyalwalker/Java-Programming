@@ -18,6 +18,7 @@ public class VarArgs {
         sum(1,2);
         sum(1,3,7);
         sum(2,3,5,67,7,889,99,5);
+
     }
 
 }

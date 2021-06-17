@@ -23,5 +23,36 @@ package OfficeHours.practice_06_14_2021;
  *
  */
 public class Candy {
+    String brand;
+    int quantity;
+    boolean containsPeanut;
+    static int numberOfTotalCandies;
+
+    public Candy(String brand, int quantity, boolean containsPeanut){
+        numberOfTotalCandies++;
+    }
+
+    public void setQuantity(int quantity){
+        if(quantity>0){
+            this.quantity = quantity;
+        }
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    @Override
+    public String toString() {
+        return "Candy{" +
+                "brand='" + brand + '\'' +
+                ", quantity=" + quantity +
+                ", containsPeanut=" + containsPeanut +
+                '}';
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
 
 }

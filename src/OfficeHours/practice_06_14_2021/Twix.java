@@ -10,4 +10,8 @@ package OfficeHours.practice_06_14_2021;
  *  *     * extra: static hiding, final, sub class
  */
 public class Twix extends Candy{
+
+    public Twix(int quantity, boolean containsPeanuts){
+        super("Mars", quantity, containsPeanuts );
+    }
 }

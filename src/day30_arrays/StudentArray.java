@@ -1,5 +1,7 @@
 package day30_arrays;
 
+import java.util.Arrays;
+
 public class StudentArray {
     public static void main(String[] args) {
         String[] student1 = new String[5];

@@ -4,6 +4,7 @@ import java.util.*;
 public class BinarySearch {
     public static void main(String[] args) {
         int [] nums = {543,23,154,12,245};
+        System.out.println(Arrays.toString(nums));
         int [] nums2 = {23,154};
         // need to sort in order to search
         Arrays.sort(nums);
