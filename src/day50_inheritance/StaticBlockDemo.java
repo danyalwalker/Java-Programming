@@ -6,6 +6,9 @@ import java.util.List;
 
 public class StaticBlockDemo {
     public static class Inner {
+        public static void createM(){
+            System.out.println("anything");
+        }
         //variables and methods of inner static class
     }
 
