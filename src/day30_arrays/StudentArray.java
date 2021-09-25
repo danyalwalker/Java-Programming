@@ -1,7 +1,5 @@
 package day30_arrays;
 
-import java.util.Arrays;
-
 public class StudentArray {
     public static void main(String[] args) {
         String[] student1 = new String[5];
@@ -26,5 +24,6 @@ public class StudentArray {
             System.out.println("Fail");
         }
         System.out.println((student1[1] + " " + student1[2]).toUpperCase());
+        //System.out.println(student2);
     }
 }

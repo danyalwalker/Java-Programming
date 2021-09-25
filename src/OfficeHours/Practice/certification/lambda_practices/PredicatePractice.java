@@ -20,5 +20,9 @@ public class PredicatePractice {
         numList.removeIf(num -> numList.get(0) > 1);
         System.out.println(numList);
 
+
+
+
+
     }
 }

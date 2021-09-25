@@ -2,7 +2,7 @@ package day47_constructors;
 
 public class Address {
     private String street;
-    private String city;
+    private static String city;
     private String state;
     private String zipCode;
     private String Country;
@@ -71,6 +71,7 @@ public class Address {
     public String toString() {
         return street + ", " + city + ", " +  state + ", " +  zipCode + ", " +  Country;
     }
+
 
 
 }

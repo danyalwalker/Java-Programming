@@ -10,6 +10,7 @@ public class CollectionsUtil {
         letters.addAll(Arrays.asList('j', 'a', 'v', 'a', 'i', 's', 'f', 'u', 'n'));
 
 
+
         char[] letter = ("javaisfun").toCharArray();
         System.out.println(Arrays.toString(letter));
         Collections.reverse(letters);
@@ -30,6 +31,10 @@ public class CollectionsUtil {
         System.out.println(letters);
 
         List<Integer> nums = Arrays.asList(23, 34, 12, 35, 23, 56, 23, 786, 12);
+        for (Integer num : nums) {
+            System.out.print(Collections.frequency(nums, num));
+        }
+        System.out.println();
         System.out.println("nums = " + nums);
         Collections.reverse(nums);
         System.out.println("after reverse " + nums);

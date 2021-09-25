@@ -9,11 +9,14 @@ public class Neighbors {
 
         for (int index = 0; index < word.length(); index++) {
             System.out.print(word.charAt(index));
+            int i = 0;
+            i++;
             System.out.print(word.charAt(index+1));
             if (word.charAt(index) == word.charAt(index+1)){
                 System.out.println("beep - " + word.charAt(index));
             }
         }
+
 
     }
 }
